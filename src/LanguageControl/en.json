@@ -1,0 +1,20 @@
+{
+  "CD.login.modal.header": "Authorization",
+  "CD.login.modal.signUp.text": "I don't have account...",
+  "CD.login.modal.signUp.link": "Sign Up",
+  "CD.login.modal.form.submit": "Log In",
+  "CD.login.modal.form.input.username": "Username",
+  "CD.login.modal.form.input.password": "Password",
+  "CD.login.modal.form.checkbox": "Remember me on this computer",
+
+  "CD.registration.modal.header": "Registration",
+  "CD.registration.modal.form.input.username": "Username",
+  "CD.registration.modal.form.input.password": "Password",
+  "CD.registration.modal.form.input.repeatingPassword": "Re-repeat password",
+  "CD.registration.modal.form.input.email": "Email",
+  "CD.registration.modal.form.submit": "Register",
+  "CD.registration.modal.logIn.text": "I have account...",
+  "CD.registration.modal.logIn.link": "Log In",
+
+  "CD.page.navbar.search.placeholder": "Collections, items..."
+}

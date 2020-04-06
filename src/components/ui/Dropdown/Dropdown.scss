@@ -1,0 +1,18 @@
+.dropdown[data-opened=false] {
+  display: none;
+}
+
+.container {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.trigger {
+  cursor: pointer;
+  user-select: none;
+}

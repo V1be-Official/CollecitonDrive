@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  max-width: 700px;
+  width: 100%;
+  flex: none;
+}
+
+.header {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.formWrapper {
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logIn {
+  font-size: 12px;
+  margin-top: 20px;
+  .logInLink {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+}
+
+:global(.Themium) {
+
+  &[data-theme="light"] {
+    .container {
+      background: var(--Light-light);
+    }
+    .header {
+      color: var(--Light-dark)
+    }
+
+    .logIn {
+      color: var(--Light-dark);
+      .logInLink {
+        color: var(--Light-vivid);
+      }
+    }
+  }
+
+
+  &[data-theme="dark"] {
+    .container {
+      background: var(--Light-light);
+    }
+    .header {
+      color: var(--Light-dark)
+    }
+  }
+
+}

@@ -1,0 +1,47 @@
+.container {
+  margin-left: 100px;
+  min-width: 640px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.search {
+  margin: 0 40px;
+  border: none;
+  border-bottom: solid 1px rgba(var(--Light-dark-rgb), 0.1);
+}
+
+.collections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+.collection {
+  display: flex;
+  justify-content: center;
+  width: 33.3333%;
+  min-width: 320px;
+  margin-bottom: 20px;
+}
+
+.noCollections {
+  display: flex;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--Light-dark);
+  justify-content: center;
+  margin-top: 40px;
+  opacity: .7;
+}

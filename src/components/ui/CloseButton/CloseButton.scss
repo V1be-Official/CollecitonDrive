@@ -1,0 +1,16 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  transition: background .2s ease;
+  border-radius: 50%;
+  &:hover {
+    background: rgba(var(--Light-vivid-rgb), 0.2);
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

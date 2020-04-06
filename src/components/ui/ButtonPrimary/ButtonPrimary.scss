@@ -1,0 +1,14 @@
+.button {
+  background: rgb(70, 95, 227, 1);
+  color: rgb(255, 255, 255, 1);
+  padding: 10px 20px;
+
+  transition: background .15s linear;
+
+  &:hover {
+    background: rgba(59, 81, 192, 1);
+  }
+  &:active {
+    background: rgba(55, 73, 167, 1);
+  }
+}

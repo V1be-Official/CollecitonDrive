@@ -1,0 +1,20 @@
+{
+  "CD.login.modal.header": "Авторизация",
+  "CD.login.modal.signUp.text": "У меня нет аккаунта...",
+  "CD.login.modal.signUp.link": "Присоединиться!",
+  "CD.login.modal.form.submit": "Войти",
+  "CD.login.modal.form.input.username": "Логин",
+  "CD.login.modal.form.input.password": "Пароль",
+  "CD.login.modal.form.checkbox": "Запомнить меня на этом компьютере",
+
+  "CD.registration.modal.header": "Регистрация",
+  "CD.registration.modal.form.input.username": "Логин",
+  "CD.registration.modal.form.input.password": "Пароль",
+  "CD.registration.modal.form.input.repeatingPassword": "Повторите пароль",
+  "CD.registration.modal.form.input.email": "Почта",
+  "CD.registration.modal.logIn.text": "У меня есть аккаунт...",
+  "CD.registration.modal.logIn.link": "Войти",
+  "CD.registration.modal.form.submit": "Зарегистрироваться",
+
+  "CD.page.navbar.search.placeholder": "Коллекции, айтемы..."
+}

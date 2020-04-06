@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  padding: 30px 10px;
+}
+
+.usernameTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.userPhoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #465FE3;
+  margin-top: 10px;
+}
+
+.btnChangePhoto {
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.countCollections {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+:global(.Themium) {
+  &[data-theme="light"] {
+    .container {
+      background: var(--Light-light);
+      box-shadow: 0px 0px 1px rgba(var(--Light-dark-rgb), 1);
+    }
+
+    .usernameTitle {
+      color: var(--Light-dark);
+    }
+
+    .btnChangePhoto {
+      color: var(--Light-vivid)
+    }
+  }
+
+  &[data-theme="dark"] {
+
+  }
+}

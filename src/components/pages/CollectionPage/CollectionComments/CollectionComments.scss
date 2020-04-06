@@ -1,0 +1,86 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 400px;
+  height: min-content;
+  max-height: 80vh;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-top: solid 1px #2C3555;
+  padding: 10px 0;
+}
+
+.photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex: none;
+  background: #FF4768;
+}
+
+.send {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 1px #2C3555;
+  flex: none;
+}
+
+.input {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.commentInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  .name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--Light-dark);
+  }
+  .text {
+    font-size: 12px;
+    color: var(--Light-dark);
+  }
+  .date {
+    font-size: 10px;
+    color: rgba(var(--Light-dark-rgb), 0.5);
+  }
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.comments {
+  position: relative;
+  overflow-y: auto;
+  min-height: 400px;
+  max-height: 600px;
+}
+
+.dimmer {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+
+  .ball {
+    background: #465FE3;
+  }
+
+}

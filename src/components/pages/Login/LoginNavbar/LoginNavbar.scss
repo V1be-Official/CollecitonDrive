@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 100%;
+  padding: 30px 40px 0 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  user-select: none;
+}
+
+.btnChangeTheme {
+  margin-right: 20px;
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+}
+
+:global(.Themium) {
+
+  &[data-theme="light"] {
+    .container {
+      background: var(--Light-light);
+    }
+  }
+
+  &[data-theme="dark"] {
+    .container {
+      background: var(--Light-light);
+    }
+  }
+
+
+}
